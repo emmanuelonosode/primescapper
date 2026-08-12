@@ -142,3 +142,19 @@
   height: 200px;
   color: var(--text-muted);
 }
+
+@media (max-width: 768px) {
+  .overlay {
+    padding: 1rem;
+  }
+  .header {
+    padding: 1rem;
+  }
+  .content {
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+  .title {
+    font-size: 1.25rem;
+  }
+}

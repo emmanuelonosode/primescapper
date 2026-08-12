@@ -115,3 +115,19 @@ input, textarea {
   background-color: #475569;
   transform: translateY(-2px);
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+  .title {
+    font-size: 1.8rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+  }
+  .btn-primary, .btn-secondary {
+    width: 100%;
+    padding: 1rem;
+  }
+}
